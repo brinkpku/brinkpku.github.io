@@ -2,7 +2,7 @@
 <html lang="cn">
 <head>
         <meta charset="utf-8" />
-        <title>Hello World</title>
+        <title>k8s</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 </head>
 
@@ -10,30 +10,33 @@
         <header id="banner" class="body">
                 <h1><a href="/">Brink's Blog </a></h1>
                 <nav><ul>
-                    <li><a href="/category/misc.html">misc</a></li>
-                    <li class="active"><a href="/category/other.html">other</a></li>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/other.html">other</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="/hello-world.html" rel="bookmark"
-           title="Permalink to Hello World">Hello World</a></h1>
+        <a href="/k8s.html" rel="bookmark"
+           title="Permalink to k8s">k8s</a></h1>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2020-09-07T13:57:33.005782+08:00">
-                Published: Mon 07 September 2020
+        <abbr class="published" title="2020-08-06T17:20:10.224792+08:00">
+                Published: Thu 06 August 2020
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/brink.html">Brink</a>
         </address>
-<p>In <a href="/category/other.html">other</a>.</p>
+<p>In <a href="/category/misc.html">misc</a>.</p>
 
-</footer><!-- /.post-info -->      <p>Hello world! M coming 'github.io' to write my blogs.</p>
+</footer><!-- /.post-info -->      <h2>k8s名词概念</h2>
+<p><strong>Node</strong>: kubernetes集群中的一台虚拟机或物理机。</p>
+<p><strong>Controller</strong>: Kubernetes 通常不会直接创建 Pod，而是通过 Controller 来管理 Pod 的。Kubernetes 提供了多种 Controller，包括 Deployment、ReplicaSet、DaemonSet、StatefuleSet、Job 等。</p>
+<p><strong>Service</strong>: 一种Kubernetes服务，它使用标签选择器标识一组pod。除非另有说明，否则假定服务只有在集群网络中可路由的虚拟ip。Kubernetes 运行容器（Pod）与访问容器（Pod）这两项任务分别由 Controller 和 Service 执行。</p>
     </div><!-- /.entry-content -->
 
   </article>

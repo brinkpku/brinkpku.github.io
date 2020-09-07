@@ -2,7 +2,7 @@
 <html lang="cn">
 <head>
         <meta charset="utf-8" />
-        <title>Hello World</title>
+        <title>git submodule</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 </head>
 
@@ -10,30 +10,41 @@
         <header id="banner" class="body">
                 <h1><a href="/">Brink's Blog </a></h1>
                 <nav><ul>
-                    <li><a href="/category/misc.html">misc</a></li>
-                    <li class="active"><a href="/category/other.html">other</a></li>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/other.html">other</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="/hello-world.html" rel="bookmark"
-           title="Permalink to Hello World">Hello World</a></h1>
+        <a href="/git-submodule.html" rel="bookmark"
+           title="Permalink to git submodule">git submodule</a></h1>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2020-09-07T13:57:33.005782+08:00">
-                Published: Mon 07 September 2020
+        <abbr class="published" title="2020-08-18T11:19:10.343687+08:00">
+                Published: Tue 18 August 2020
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/brink.html">Brink</a>
         </address>
-<p>In <a href="/category/other.html">other</a>.</p>
+<p>In <a href="/category/misc.html">misc</a>.</p>
 
-</footer><!-- /.post-info -->      <p>Hello world! M coming 'github.io' to write my blogs.</p>
+</footer><!-- /.post-info -->      <h3>git submodule</h3>
+<h3>背景</h3>
+<p>Git 工具的 submodule 功能就是建立了当前项目与子模块之间的依赖关系：子模块路径、子模块的远程仓库、子模块的版本号。</p>
+<h3>命令</h3>
+<h4>创建子模块</h4>
+<p>使用 <code>git submodule add &lt;submodule_url&gt;</code> 命令可以在项目中创建一个子模块。</p>
+<h4>获取子模块</h4>
+<p>如果希望子模块代码也获取到，一种方式是在克隆主项目的时候带上参数 <code>--recurse-submodules</code>，这样会递归地将项目中所有子模块的代码拉取。</p>
+<p>另外一种可行的方式是，在当前主项目中执行：</p>
+<div class="highlight"><pre><span></span>git submodule init
+git submodule update
+</pre></div>
     </div><!-- /.entry-content -->
 
   </article>
