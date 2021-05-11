@@ -1,15 +1,41 @@
 # Table of Contents
-1. [link](#link)
-2. [quote](#quote)
+- [Table of Contents](#table-of-contents)
+  - [foot-note](#foot-note)
+  - [link](#link)
+  - [quote](#quote)
 
-## 1. link
-```
-这是一个链接 [name](https://url) 
-```
-这是一个链接 [name](https://url) 
+## foot-note
+``` markdown
+syntax (some env may not support):
 
-## 2. quote
+text1[^footnote1], text2[^2]
+
+[^footnote1]: foot-note1
+[^2]: <address-to-reference>
 ```
+text1[^footnote1], text2[^2]
+
+[^footnote1]: foot-note1
+[^2]: <address-to-reference>
+## link
+``` markdown
+syntax:
+
+this is url [name](https://url) 
+```
+this is url [name](https://url) 
+
+----
+``` markdown
+syntax:
+
+<https://direct-link>
+```
+<https://direct-link>
+## quote
+``` markdown
+syntax:
+
 > quote
 ```
 > quote
