@@ -1,0 +1,1 @@
+what is cpu arch? x86 amd64 arm
