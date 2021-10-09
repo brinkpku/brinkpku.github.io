@@ -32,6 +32,14 @@ syntax:
 <https://direct-link>
 ```
 <https://direct-link>
+
+----
+``` markdown
+syntax:
+
+[name](../file.link)
+```
+[name](../file.link)
 ## quote
 ``` markdown
 syntax:
