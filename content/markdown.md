@@ -2,6 +2,7 @@
 - [Table of Contents](#table-of-contents)
   - [foot-note](#foot-note)
   - [link](#link)
+  - [list](#list)
   - [quote](#quote)
 
 ## foot-note
@@ -40,6 +41,15 @@ syntax:
 [name](../file.link)
 ```
 [name](../file.link)
+## list
+``` markdown
+ToDo list: 
+ - [ ] todo
+ - [x] done
+```
+ToDo list: 
+ - [ ] todo
+ - [x] done
 ## quote
 ``` markdown
 syntax:
