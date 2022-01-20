@@ -1,0 +1,1 @@
+https://www.cloudsavvyit.com/12330/what-is-a-docker-image-manifest/
