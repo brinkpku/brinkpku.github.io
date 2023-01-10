@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/55741170/container-port-pods-vs-container-port-service

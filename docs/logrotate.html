@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>logrotate</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <meta name="description" content="https://linux.cn/article-4126-1.html daily and size dail and size is contradictory. local definitions override global ones, and later definitions..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Brink's Blog</a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/other.html">other</a></li>
+                    <li><a href="/category/python.html">python</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/logrotate.html" rel="bookmark"
+           title="Permalink to logrotate">logrotate</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-22T16:17:25.859161+08:00">
+                Published: Mon 22 August 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-08-22T16:17:25.859161+08:00">
+                Updated: Mon 22 August 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->      <p><a href="https://linux.cn/article-4126-1.html">https://linux.cn/article-4126-1.html</a></p>
+<h2>daily and size</h2>
+<p>dail and size is contradictory.</p>
+<p>local definitions override global ones, and later definitions &gt; override earlier ones from the manpage of logrotate.</p>
+<div class="highlight"><pre><span></span><code>logrotate -d -v rotatefile.conf
+</code></pre></div>
+
+<blockquote>
+<p>use the verbose option to see which rules are used. From my tests I believe only the last rule is used because more specific rules can override more general rules. </p>
+</blockquote>
+<p>https://serverfault.com/questions/391538/logrotate-daily-and-size</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

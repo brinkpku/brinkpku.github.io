@@ -1,0 +1,4 @@
+## sidecar
+## init
+## adapter
+## ambassador

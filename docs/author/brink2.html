@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Brink's Blog - Brink</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Brink's Blog</a></h1>
+                <nav><ul>
+                    <li><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/other.html">other</a></li>
+                    <li><a href="/category/python.html">python</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+                <section id="content" class="body">
+                    <ol id="posts-list" class="hfeed" start="9">
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/logrotate.html" rel="bookmark"
+                           title="Permalink to logrotate">logrotate</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-22T16:17:25.859161+08:00">
+                Published: Mon 22 August 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-08-22T16:17:25.859161+08:00">
+                Updated: Mon 22 August 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                <p><a href="https://linux.cn/article-4126-1.html">https://linux.cn/article-4126-1.html</a></p>
+<h2>daily and size</h2>
+<p>dail and size is contradictory.</p>
+<p>local definitions override global ones, and later definitions &gt; override earlier ones from the manpage of logrotate.</p>
+<div class="highlight"><pre><span></span><code>logrotate -d -v rotatefile.conf
+</code></pre></div>
+
+<blockquote>
+<p>use the verbose option to see which rules are used. From my tests I believe only …</p></blockquote>
+                <a class="readmore" href="/logrotate.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/go-build-constraints.html" rel="bookmark"
+                           title="Permalink to go-build-constraints">go-build-constraints</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-18T17:31:34.168393+08:00">
+                Published: Thu 18 August 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-08-18T17:31:34.168393+08:00">
+                Updated: Thu 18 August 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                
+                <a class="readmore" href="/go-build-constraints.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/system-metrics.html" rel="bookmark"
+                           title="Permalink to system-metrics">system-metrics</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-10T15:51:33.325544+08:00">
+                Published: Wed 10 August 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-08-10T15:51:33.325544+08:00">
+                Updated: Wed 10 August 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                <h2>cpu metrics</h2>
+<p>top</p>
+<p>%us：表示用户空间程序的cpu使用率（没有通过nice调度）</p>
+<p>%sy：表示系统空间的cpu使用率，主要是内核程序。</p>
+<p>%ni：表示用户空间且通过nice调度过的程序的cpu使用率。</p>
+<p>%id：空闲cpu …</p>
+                <a class="readmore" href="/system-metrics.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/disk-partition.html" rel="bookmark"
+                           title="Permalink to disk-partition">disk-partition</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-08T17:07:19.781051+08:00">
+                Published: Mon 08 August 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-08-08T17:07:19.781051+08:00">
+                Updated: Mon 08 August 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                <p>fdisk -l
+lsblk
+https://cloud.tencent.com/developer/article/1721138
+https://blog.csdn.net/m0_37962779/article/details/78529261</p>
+                <a class="readmore" href="/disk-partition.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/markdown.html" rel="bookmark"
+                           title="Permalink to markdown">markdown</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-07-26T15:57:54.048836+08:00">
+                Published: Tue 26 July 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-07-26T15:57:54.048836+08:00">
+                Updated: Tue 26 July 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Table of Contents</h1>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#foot-note">foot-note</a></li>
+<li><a href="#link">link</a></li>
+<li><a href="#list">list</a></li>
+<li><a href="#quote">quote</a></li>
+<li><a href="#table">table</a></li>
+</ul>
+<h2>foot-note</h2>
+<div class="highlight"><pre><span></span><code><span class="n">syntax</span> <span class="p">(</span><span class="k">some</span> <span class="n">env</span> <span class="n">may</span> <span class="k">not</span> <span class="n">support</span><span class="p">):</span>
+
+<span class="n">text1</span><span class="p">[</span><span class="o">^</span><span class="n">footnote1</span><span class="p">],</span> <span class="n">text2</span><span class="p">[</span><span class="o">^</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="p">[</span><span class="o">^</span><span class="n">footnote1</span><span class="p">]:</span> <span class="n">foot</span><span class="o">-</span><span class="n">note1</span>
+<span class="p">[</span><span class="o">^</span><span class="mi">2</span><span class="p">]:</span> <span class="o">&lt;</span><span class="n">address</span><span class="o">-</span><span class="k">to</span><span class="o">-</span><span class="n">reference</span><span class="o">&gt;</span>
+</code></pre></div>
+
+<p>text1<sup id="fnref:footnote1"><a class="footnote-ref" href="#fn:footnote1">1</a></sup>, text2<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<h2>link</h2>
+<div class="highlight"><pre><span></span><code><span class="nl">syntax</span><span class="p">:</span><span class="w"></span>
+
+<span class="n">this</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">[</span><span class="n">name</span><span class="o">]</span><span class="p">(</span><span class="nl">https</span><span class="p">:</span><span class="o">//</span><span class="n">url</span><span class="p">)</span><span class="w"> </span>
+</code></pre></div>
+
+<p>this is url <a href="https://url">name</a> </p>
+<hr>
+<div class="highlight"><pre><span></span><code><span class="n">syntax</span><span class="p">:</span>
+
+<span class="o">&lt;</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">direct</span><span class="o">-</span><span class="n">link</span><span class="o">&gt;</span>
+</code></pre></div>
+
+<p><a href="https://direct-link">https …</a></p>
+                <a class="readmore" href="/markdown.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/cache-eviction-algorithm.html" rel="bookmark"
+                           title="Permalink to cache-eviction-algorithm">cache-eviction-algorithm</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-04-18T11:22:06.520001+08:00">
+                Published: Mon 18 April 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-04-18T11:22:06.520001+08:00">
+                Updated: Mon 18 April 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                
+                <a class="readmore" href="/cache-eviction-algorithm.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/cgo.html" rel="bookmark"
+                           title="Permalink to cgo">cgo</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-01-20T12:36:08.521977+08:00">
+                Published: Thu 20 January 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-01-20T12:36:08.521977+08:00">
+                Updated: Thu 20 January 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                <p>dynamic so</p>
+<p>plugin cgo directive</p>
+                <a class="readmore" href="/cgo.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/gomod.html" rel="bookmark"
+                           title="Permalink to gomod">gomod</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-01-20T12:35:34.462123+08:00">
+                Published: Thu 20 January 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-01-20T12:35:34.462123+08:00">
+                Updated: Thu 20 January 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                <p>go mod tidy执行过程：go.mod文件+代码中引用-&gt; go get -d all project，递归执行
+reference go get 过程</p>
+<p>indirect
+skip lfs</p>
+                <a class="readmore" href="/gomod.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/docker-manifest.html" rel="bookmark"
+                           title="Permalink to docker-manifest">docker-manifest</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-01-20T11:05:30.067015+08:00">
+                Published: Thu 20 January 2022
+        </abbr>
+		<br />
+        <abbr class="modified" title="2022-01-20T11:05:30.067015+08:00">
+                Updated: Thu 20 January 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                
+                <a class="readmore" href="/docker-manifest.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/k8s-rbac.html" rel="bookmark"
+                           title="Permalink to k8s rbac">k8s rbac</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2021-10-28T21:47:03.333561+08:00">
+                Published: Thu 28 October 2021
+        </abbr>
+		<br />
+        <abbr class="modified" title="2021-10-28T21:47:03.333561+08:00">
+                Updated: Thu 28 October 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/brink.html">Brink</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->                
+                <a class="readmore" href="/k8s-rbac.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+<p class="paginator">
+        <a href="/author/brink.html">&#8647;</a>
+        <a href="/author/brink.html">&laquo;</a>
+    Page 2 / 7
+        <a href="/author/brink3.html">&raquo;</a>
+        <a href="/author/brink7.html">&#8649;</a>
+</p>
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

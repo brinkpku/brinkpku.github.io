@@ -1,0 +1,4 @@
+## Deployments
+## Statefulset
+## DaemonSet
+## 
